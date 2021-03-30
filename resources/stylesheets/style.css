@@ -1,3 +1,6 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital@1&display=swap');
+
 :root {
 --main-blue: #167BC8;
 --accent-orange: #C86316;
@@ -5,8 +8,7 @@
 --white-color: #F7F7F7
 }
 
-/*Fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital@1&display=swap');
+
 
 
 h1 {
