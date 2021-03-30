@@ -87,6 +87,7 @@ nav a {
     text-decoration: none;
     padding: 8px 8px;
     margin: 5px;
+    font-size: 12px;
 }
 
 nav a.active, nav button.active {
@@ -106,7 +107,7 @@ nav a:hover, nav .subnavbtn:hover {
     padding: 10px 12px;
     outline: none;
     border: none;
-    font-size: 1.1rem;
+    font-size: 12px;
 }
 
 .subnav-content {
@@ -450,6 +451,14 @@ footer a {
         grid-column: 7 / span 7;
         border-bottom: solid 5px var(--accent-orange);
         background-image: linear-gradient(45deg, var(--main-blue), #2B6793 0px, var(--grey-color));
+    }
+
+    nav a {
+        font-size: 16px;
+    }
+
+    .subnav, .subnavbtn {
+        font-size: 16px;
     }
 
     .linkmargin {
