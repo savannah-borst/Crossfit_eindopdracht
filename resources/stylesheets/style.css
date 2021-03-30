@@ -118,7 +118,7 @@ nav a:hover, nav .subnavbtn:hover {
     border-bottom: 2px solid var(--accent-orange);
     border-left: 2px solid var(--accent-orange);
     border-right: 2px solid var(--accent-orange);
-    width: 200px;
+    width: 150px;
     padding: 10px;
 }
 
@@ -314,7 +314,6 @@ video {
     border-top: solid 2px var(--accent-orange);
     padding-bottom: 50px;
     height: 355px;
-    margin: 50px 50px 0px 25px;
 }
 
 .generator {
@@ -460,6 +459,11 @@ footer a {
     .subnav, .subnavbtn {
         font-size: 16px;
     }
+
+    .subnav-content {
+        width: 200px;
+
+}
 
     .linkmargin {
         margin-right: 40px;
