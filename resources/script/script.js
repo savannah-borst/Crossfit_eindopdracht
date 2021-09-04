@@ -7,7 +7,7 @@ function initMap() {
   });
 }
 
-var workout = []
+const workout = []
 workout [0] = "<h3>15 min AMRAP</h3> <p>20 Double unders</p> <p>10 Burpees</p> <p>5 Situps</p>"
 workout [1] = "<h3>14 min EMOM</h3><p>5 Push-ups</p> <p>10 Walking lunges</p> <p>15 Hip bridge extensions</p>"
 workout [2] = "<h3>4 RFT</h3> <p>12 Burpees</p> <p>10 Pull-ups</p> <p>10 Shoulder to overhead</p> <p>10 Kettlebell snatch (elke kant)</p>"
@@ -20,6 +20,6 @@ workout [8] = "<h3>4 RFT</h3> <p>800m run</p> <p>10 Pull-ups</p> <p>20 Kettlebel
 workout [9] = "<h3>Angie for time</h3> <p>100 Pull-ups</p> <p>100 Push-ups</p> <p>100 Sit-ups</p> <p>100 Air sqauts</p>"
 
 function workOut () {
-  var randomWorkout = Math.floor(Math.random()*(workout.length));
+  let randomWorkout = Math.floor(Math.random()*(workout.length));
   document.getElementById('rworkout').innerHTML = workout [randomWorkout];
 }
